@@ -1,17 +1,21 @@
 GoAgentOSX.app
 ==============
-This application is a wrapper to launch the GoAgent service, created using Platypus.
-It has been created simply to eliminate the terminal window after launching the supplied
-shell script.
+GoAgent 3.0 ships with a new shell script for the GUI launcher. However, launching it
+leaves the Terminal opened and needs to be closed manually.
 
+This application is a wrapper to the launcher, created using Platypus. It has been
+created simply to eliminate the terminal window.
+
+GoAgent
+  https://code.google.com/p/goagent/
 Platypus
   http://sveinbjorn.org/platypus
 
 Preferences:
 ============
-By default, this app looks for "goagent-osx.command" distrubuted from GoAgent 3.x 
+By default, this app looks for "goagent-osx.command" distributed from GoAgent 3.0.x 
 in /Application/goagent/goagent/local directory. You can modify a property to point
-to yours if it's different.
+to your installation if it's different.
 
 Configuration:
 ==============
